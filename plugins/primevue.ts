@@ -10,6 +10,11 @@ import FileUpload from 'primevue/fileupload'
 import Card from 'primevue/card'
 import ToggleButton from 'primevue/togglebutton'
 
+// Import PrimeVue styles
+import 'primevue/resources/themes/saga-blue/theme.css' // Choose a theme
+import 'primevue/resources/primevue.min.css'
+import 'primeicons/primeicons.css'
+
 export default defineNuxtPlugin((nuxtApp) => {
     nuxtApp.vueApp.use(PrimeVue, { ripple: true })
 

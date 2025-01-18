@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<FormBuilder />
+		<FormBuilder/>
 	</div>
 </template>
 
 <script setup lang="ts">
-// Main page component
+import FormBuilder from "~/components/form/FormBuilder.vue";
 </script>

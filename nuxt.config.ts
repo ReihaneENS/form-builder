@@ -2,7 +2,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
-    '@nuxtjs/i18n',
   ],
   css: [
     'primevue/resources/themes/lara-light-blue/theme.css',
@@ -24,13 +23,5 @@ export default defineNuxtConfig({
   },
   devtools: {
     enabled: false
-  },
-  experimental: {
-    payloadExtraction: false
-  },
-  nitro: {
-    prerender: {
-      failOnError: false
-    }
   }
 })
